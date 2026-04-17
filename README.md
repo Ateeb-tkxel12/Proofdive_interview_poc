@@ -108,7 +108,9 @@ cp .env.example .env
 poetry run streamlit run app/main.py
 ```
 
-### Option B: Using Conda + pip
+### Option B: Using Conda + Poetry
+
+Uses Conda for the Python environment, Poetry for dependency management (no Poetry venv).
 
 ```bash
 # Clone the repo
@@ -119,8 +121,14 @@ cd Proofdive_interview_poc
 conda create -n pdive python=3.12 -y
 conda activate pdive
 
-# Install dependencies
-pip install -r requirements.txt
+# Install Poetry inside the conda env
+pip install poetry
+
+# Tell Poetry not to create its own venv (use conda's instead)
+poetry config virtualenvs.create false --local
+
+# Install dependencies via Poetry
+poetry install
 
 # Create .env file
 cp .env.example .env
