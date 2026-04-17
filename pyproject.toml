@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "proofdive-be"
+version = "0.1.0"
+description = "Backend of ProofDive"
+authors = ["ateebahmad <ateeb.ansari@tkxel.io>"]
+package-mode = false   
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^2.30.0"
+python-dotenv = "^1.2.2"
+streamlit = "^1.56.0"
+langgraph = "^1.1.6"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+openai>=2.30.0
+python-dotenv>=1.2.0
+streamlit>=1.56.0
+langgraph>=1.1.6

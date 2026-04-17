@@ -1,0 +1,132 @@
+{
+  "drivers": {
+    "thinking": {
+      "label": "THINKING",
+      "sublabel": "Analytical depth & structure",
+      "competencies": ["Analytical Thinking", "Prioritization", "Decision-Making Agility"],
+      "levels": {
+        "5": {
+          "Analytical Thinking": "Reframes: Creates a crisp model others can reuse; reframes to solvable core; teaches the logic.",
+          "Prioritization": "Principles Driven: Anticipates downstream impact; optimizes portfolio; articulates principles others adopt.",
+          "Decision-Making Agility": "Cycle Learner: Anticipates info arrival; improves decision quality over cycles."
+        },
+        "4": {
+          "Analytical Thinking": "Insightful: Identifies root causes; connects patterns; anticipates secondary effects.",
+          "Prioritization": "Disciplined: Applies a repeatable prioritization method; revisits rankings as facts change; manages trade-offs transparently.",
+          "Decision-Making Agility": "Adaptive: Uses decide-measure-adjust; defines pivot/kill signals; communicates tradeoffs upfront."
+        },
+        "3": {
+          "Analytical Thinking": "Structured: Breaks problem into parts; uses simple frameworks/comparisons; traceable reasoning.",
+          "Prioritization": "Deliberate: States criteria (e.g. impact, risk, effort); ranks options; justifies selection logically.",
+          "Decision-Making Agility": "Decisive Enough: States decision, rationale, acceptable risk; sets review checkpoints."
+        },
+        "2": {
+          "Analytical Thinking": "Partial: Names some factors but misses critical ones; opinion-led; weak linkage from analysis to action.",
+          "Prioritization": "Inconsistent: States decision criteria but applies unevenly; over-indexes one factor (e.g. speed) without balance.",
+          "Decision-Making Agility": "Tentative: Over-seeks input; slow to commit or over-commits; defends poor calls."
+        },
+        "1": {
+          "Analytical Thinking": "Fragmented: Lists events; no structure; confuses symptoms with causes; no clear C→A→R logic.",
+          "Prioritization": "Unfocused: Tries to do everything; cannot state decision criteria; confuses urgent with important.",
+          "Decision-Making Agility": "Hesitant/Impulsive: Either freezes or decides on gut without rationale; no contingency thinking."
+        }
+      }
+    },
+    "action": {
+      "label": "ACTION",
+      "sublabel": "Ownership & execution",
+      "competencies": ["Ownership", "Initiative & Follow-through", "Embraces Change"],
+      "levels": {
+        "5": {
+          "Ownership": "Enterprise Mindset: Owns outcomes end-to-end across boundaries; codifies follow-through habits others adopt; results demonstrably improved due to stewardship.",
+          "Initiative & Follow-through": "Systemizes Follow-through: Builds a lightweight mechanism (checklist/board/SLA) so others finish faster next time; measurable uplift.",
+          "Embraces Change": "Change Catalyst: Leads the narrative; sets feedback loops/metrics; pilots to de-risk; institutionalizes a lightweight change playbook."
+        },
+        "4": {
+          "Ownership": "Proactive Steward: Anticipates risks; renegotiates scope early; safeguards standards; closes loops without being asked.",
+          "Initiative & Follow-through": "End-to-End Driver: Anticipates blockers, secures alignment/resources, adapts plan, lands result, documents handover.",
+          "Embraces Change": "Change Enabler: Anticipates impacts; sequences transition steps; upskills others; creates simple aids (FAQs/checklists)."
+        },
+        "3": {
+          "Ownership": "Clear Ownership: States goal and their role; sets plan/checkpoints; reports results and learning candidly.",
+          "Initiative & Follow-through": "Starts and Finishes: Identifies gap, takes first concrete step, sets milestones, delivers, closes loops.",
+          "Embraces Change": "Adaptive: Clarifies 'why'; adjusts plan/roles/tools; communicates new path; delivers under new conditions."
+        },
+        "2": {
+          "Ownership": "Partial Ownership: Accepts tasks but not results; commits without tracking; rationalizes misses ('dependencies').",
+          "Initiative & Follow-through": "Inconsistent: Suggests ideas; takes a step but stalls without nudges; weak checkpointing.",
+          "Embraces Change": "Compliant: Accepts when forced; minimal adjustment; old habits persist."
+        },
+        "1": {
+          "Ownership": "Avoids Ownership: Defers decisions; blames context/others; vague on personal actions or outcomes.",
+          "Initiative & Follow-through": "Starts or Stops: Waits for direction, or starts and abandons; no owner's plan; open loops.",
+          "Embraces Change": "Resistant: Frames change as threat; delays/undermines; no adaptation."
+        }
+      }
+    },
+    "people": {
+      "label": "PEOPLE",
+      "sublabel": "Collaboration & communication",
+      "competencies": ["Influence", "Collaboration & Inclusion", "Grows Capability"],
+      "levels": {
+        "5": {
+          "Influence": "Alignment Architect: Orchestrates coalition; codifies comms artifacts (one-pager/FAQ); unlocks tough decisions repeatably.",
+          "Collaboration & Inclusion": "Community Builder: Establishes inclusive rituals + light conflict tools (rules of engagement, 'disagree & commit'); measurable improvements in cross-team effectiveness and time-to-resolution.",
+          "Grows Capability": "Capability Flywheel: Proactively and broadly sources knowledge internally/externally; mentors/coaches; institutionalizes learning (playbooks, onboarding modules, communities of practice) with sustained, org-level gains."
+        },
+        "4": {
+          "Influence": "Strategic Influence: Uses data + story; pre-aligns stakeholders; offers options with trade-offs; closes commitment.",
+          "Collaboration & Inclusion": "Integrator & Bridge Builder: Anticipates who to involve; reframes disputes; documents decisions/owners; monitors sustain; sets simple ways of working.",
+          "Grows Capability": "Multiplier: Anticipates future skill gaps; creates simple learning vehicles (peer sessions, checklists); measurable uplift in others or self (quality/speed)."
+        },
+        "3": {
+          "Influence": "Persuasive & Clear: Frames goal/stakes; tailors to audience; addresses concerns; secures next step.",
+          "Collaboration & Inclusion": "Cooperative & Constructive: Aligns roles early; invites perspectives; names interests vs positions; agrees success criteria; follows through on agreements.",
+          "Grows Capability": "Deliberate Development: Sets a clear personal goal; seeks resources/mentors; shares specific know-how; tracks progress with peers/directs."
+        },
+        "2": {
+          "Influence": "One-note: States position; limited listening; pushes without trade-offs.",
+          "Collaboration & Inclusion": "Transactional: Involves others late; gathers input but barely integrates; 'patches' conflicts without durable closure.",
+          "Grows Capability": "Ad-hoc Sharing: Occasional tips/pointers; limited follow-up; growth not sustained."
+        },
+        "1": {
+          "Influence": "Unclear: Rambling/terse; no 'why'; mismatched to audience.",
+          "Collaboration & Inclusion": "Siloed/Counterproductive: Works alone; dismisses inputs; escalates or avoids conflict; blames.",
+          "Grows Capability": "Static: No evidence of skill growth; hoards knowledge; no coaching."
+        }
+      }
+    },
+    "mastery": {
+      "label": "MASTERY",
+      "sublabel": "Execution & technical clarity",
+      "competencies": ["Functional Knowledge", "Execution", "Innovation"],
+      "levels": {
+        "5": {
+          "Functional Knowledge": "Master: Establishes reference patterns or curricula adopted by others; raises the bar org-wide.",
+          "Execution": "System Builder: Designs lightweight execution + quality systems (templates, automations, QA gates) that keep delivery on track beyond self; sustained defect/accuracy improvements.",
+          "Innovation": "Flywheel Creator: Establishes continuous improvement loops/tools; repeatable, measurable uplift."
+        },
+        "4": {
+          "Functional Knowledge": "Advanced: Selects fit-for-purpose methods; anticipates edge cases; teaches others.",
+          "Execution": "Resourceful Operator: Simplifies/parallelizes; adds preventative controls/tests; communicates trade-offs transparently; recovers gracefully when plans shift.",
+          "Innovation": "Experiment Leader: Designs experiments; socializes learnings; scales proven wins."
+        },
+        "3": {
+          "Functional Knowledge": "Sound: Explains approach/trade-offs correctly; cites standards/best practices.",
+          "Execution": "Structured Delivery: Clear plan/milestones/owners; proactive risk surfacing; acceptance criteria/checklists; delivers as planned.",
+          "Innovation": "Pragmatic Improver: Runs small tests; measures impact; adopts wins."
+        },
+        "2": {
+          "Functional Knowledge": "Patchy: Knows terms; struggles to apply or justify choices.",
+          "Execution": "Inconsistent: Plans some tasks; slips; reactive fixes; limited acceptance criteria.",
+          "Innovation": "Idea Only: Suggests changes; doesn't test/measure."
+        },
+        "1": {
+          "Functional Knowledge": "Gaps: Misapplies basics; cannot explain key concepts/tools.",
+          "Execution": "Disorganized: Vague plan; misses checkpoints; no risk/quality control; frequent rework.",
+          "Innovation": "Fixed Mindset: Repeats old patterns; rejects new ideas."
+        }
+      }
+    }
+  }
+}

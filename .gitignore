@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+
+# Virtual environments
+.venv/
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tests
+tests/
+
+# Documents
+*.pdf
+*.docx
+*.xlsx
+*.doc
+*.xls
+*.pptx
+*.Zone.Identifier
+
+# Poetry (not needed for Streamlit Cloud — uses requirements.txt)
+poetry.lock
+poetry.toml
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
