@@ -12,7 +12,6 @@ from pathlib import Path
 
 import streamlit as st
 
-from app.config import APP_PASSWORD, APP_USERNAME
 from app.graph.graph import invoke_turn
 from app.graph.state import new_state
 from app.services import candidate, llm
@@ -61,18 +60,6 @@ def init_state():
         st.session_state.driver_levels = {}
     if "report" not in st.session_state:
         st.session_state.report = None
-
-
-def show_login():
-    st.title("🔐 ProofDrive Login")
-    username = st.text_input("Username")
-    password = st.text_input("Password", type="password")
-    if st.button("Login", type="primary"):
-        if username == APP_USERNAME and password == APP_PASSWORD:
-            st.session_state.authenticated = True
-            st.rerun()
-        else:
-            st.error("Invalid username or password.")
 
 
 def show_intake_form():
